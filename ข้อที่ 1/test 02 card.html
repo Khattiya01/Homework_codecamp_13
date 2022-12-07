@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card img CSS test02</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    html{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.card{
+    display: inline-grid;
+    width: 300px;
+    box-shadow: 4px 8px 8px silver;
+    border-radius: 5px;
+    margin: 5px;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.container{
+    text-align: center;
+    padding: 2px 16px;
+    background-color: aqua;
+}
+.container h4{
+    margin-bottom: 8px;
+}
+,.container p {
+    margin-top: 12px;
+}
+</style>
+<body>
+    <h2>Image gallery Card</h2>
+    <div class="card">
+        <img src="https://picsum.photos/id/1004/250" alt="">
+        <div class="container" >
+            <h4><strong>Night Picture</strong></h4>
+            <p>A beautiful Picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/7/250" alt="">
+        <div class="container">
+            <h4><strong>Night Picture</strong></h4>
+            <p>A beautiful Picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/8/250" alt="">
+        <div class="container">
+            <h4><strong>Night Picture</strong></h4>
+            <p>A beautiful Picture</p>
+        </div>
+    </div>
+</body>
+</html>
